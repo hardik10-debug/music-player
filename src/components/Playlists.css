@@ -1,0 +1,90 @@
+.specific-page2{
+  background: url('https://wallpaperaccess.com/full/2271516.jpg') no-repeat center center fixed; /* Set the background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+}
+.playlists {
+  margin-left: 220px; /* Adjust based on the width of your sidebar */
+  padding: 20px;
+  color: rgb(8, 0, 0);
+}
+
+.playlists h1 {
+  font-size: 32px;
+  margin-top: 0;
+  color: whitesmoke;
+  margin-right: 990px;
+  
+}
+
+.playlists ul {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto the next line */
+  padding: 0;
+  margin: 0; /* Remove default margin */
+}
+
+.playlists li {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column; /* Stack image and text vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: space-between; /* Space between elements */
+  width: 200px; /* Set a fixed width for the boxes */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px; /* Space between boxes */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.playlists li img {
+  width: 100px; /* Set image width */
+  height: 100px; /* Set image height */
+  object-fit: cover; /* Ensure image covers the area without distortion */
+  border-radius: 5px; /* Optional: add border-radius for rounded corners */
+  margin-bottom: 10px; /* Space between image and text */
+}
+
+.playlists li h2 {
+  font-size: 29px;
+  margin: 0; /* Ensure no margin on top or bottom */
+}
+
+.playlists li p {
+  font-size: 26px;
+  margin: 5px 0; /* Margin to separate from heading and button */
+}
+
+.playlists li:hover {
+  transform: translateY(-5px);
+}
+
+.playlists .playlist-details {
+  flex-grow: 1; /* Allow details section to grow and fill available space */
+}
+
+.playlists .playlist-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.play-icon {
+  border: 2px solid ; /* Initial border */
+  border-radius: 50%; /* Make it circular */
+  padding: 10px; /* Space between the icon and the border */
+  transition: color 0.3s ease, transform 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
+  display: inline-flex; /* Center the icon */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+}
+
+.play-icon:hover {
+  color: red; /* Change color on hover */
+  transform: scale(1.2); /* Scale up the icon */
+  border-color: red; /* Change border color on hover */
+}

@@ -1,0 +1,74 @@
+/* Global Styles */
+.specific-page5 {
+  font-family: Arial, sans-serif; /* Set a clean font for the entire page */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background: url('https://png.pngtree.com/background/20211217/original/pngtree-note-music-logo-watercolor-background-picture-image_1589075.jpg') no-repeat center center fixed; /* Set the background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  height: 100vh;
+  color: rgb(189, 9, 9); /* Dark text color for better readability */
+}
+
+/* Header Styles */
+h1 {
+  text-align: center; /* Center-align the main title */
+  font-size: 2.5em; /* Larger font size for the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+/* Library Styles */
+.library-container {
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px; /* Padding inside the library section */
+  margin-left: 100px; /* Shift the library container to the right */
+}
+
+.artist-grid {
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+  gap: 20px; /* Space between grid items */
+}
+
+.artist-card {
+  display: flex; /* Flexbox for card layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items */
+  background-color: transparent; /* Light background for artist cards */
+  padding: 15px; /* Padding inside the card */
+  border-radius: 8px; /* Rounded corners for artist cards */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
+  transition: transform 0.2s; /* Smooth scaling on hover */
+}
+
+.artist-card:hover {
+  cursor: pointer;
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.artist-card img {
+  width: 150px; /* Fixed width for images */
+  height: 150px; /* Fixed height for images */
+  object-fit: cover; /* Cover the area without distortion */
+  border-radius: 50%; /* Circular images */
+  margin-bottom: 10px; /* Space between image and name */
+}
+
+.artist-card h3 {
+  font-size: 18px; /* Font size for artist names */
+  color: black; /* Slightly lighter text color for artist names */
+  text-align: center; /* Center-align artist names */
+}
+
+/* Error and Loading Messages */
+.error {
+  color: red; /* Red color for error messages */
+  font-weight: bold; /* Bold text for emphasis */
+  text-align: center; /* Center-align error messages */
+}
+
+.loading {
+  font-size: 18px; /* Font size for loading text */
+  color: #666; /* Gray color for loading text */
+  text-align: center; /* Center-align loading text */
+}

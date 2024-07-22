@@ -1,0 +1,23 @@
+/* src/App.css */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  font-family: Arial, sans-serif;
+  padding: auto;
+}
+
+.login {
+  text-align: center;
+}
+
+
+.content {
+  flex: 1;
+  /* padding: 20px; */
+}
+
+.content button {
+  margin-top: 50px;
+}

@@ -1,0 +1,99 @@
+/* src/components/Sidebar.module.css */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px; /* Initial width */
+  height: 100vh;
+  background-color: rgb(201, 63, 8);
+  color: whitesmoke;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  overflow-y: auto;
+  transition: width 0.3s ease;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.toggleButton {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin-bottom: 10px;
+  padding-top: 60px;
+}
+
+.menu a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #444;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.text {
+  font-size: 1rem;
+}
+
+.logoutButton {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+
+.logoutButton:hover {
+  background-color: #444;
+}
+
+/* Collapsed state */
+.collapsed {
+  width: 70px; /* Collapsed width */
+}
+
+.collapsed .text {
+  display: none; /* Hide text in collapsed state */
+}
+.active {
+  background-color: #ed4f0b; /* Highlight color for active link */
+  color: white; /* Change text color */
+}
+
+.icon {
+  margin-right: 10px; /* Space between icon and text */
+}
+

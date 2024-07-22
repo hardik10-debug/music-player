@@ -1,0 +1,90 @@
+.player-block {
+  /* Border and padding styles removed */
+  text-align: center;
+  padding: 10px;
+  margin-top: -80px; /* Move the player up by 20 pixels */
+
+}
+
+.player-controls {
+  margin-bottom: 10px;
+}
+
+.control-btn {
+  color: whitesmoke;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(240, 14, 14); /* Remove background color */
+  border: none; /* Remove border */
+  padding-left: 5px;
+}
+
+.control-btn:hover {
+  background-color: #b5cae0;
+}
+
+.control-btn i {
+  font-size: 24px;
+}
+
+.progress-container {
+  margin-top: 10px;
+}
+
+.progress-bar {
+  width: 100%;
+}
+
+.time-info, .volume-control {
+  margin-top: 10px;
+  font-size: 14px;
+  padding-right: 30px;
+  color: whitesmoke;
+}
+.equalizer2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.bar1 {
+  width: 10px;
+  height: 20px;
+  background-color: red;
+  margin: 0 2px;
+  animation: equalizer-animation 0.5s infinite alternate;
+}
+
+.bar1:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.bar1:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.bar1:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.bar1:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+@keyframes equalizer-animation {
+  from {
+    height: 20px;
+  }
+  to {
+    height: 40px;
+  }
+}
+
+

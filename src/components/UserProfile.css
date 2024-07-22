@@ -1,0 +1,48 @@
+.specific-page {
+  background: url('https://img.freepik.com/premium-photo/music-records-wooden-background_2353-596.jpg') no-repeat center center fixed; /* Set the background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Ensure the body takes the full height of the viewport */
+}
+
+.profile {
+  margin-left: 120px; /* Adjust based on the width of your sidebar */
+  padding: 20px;
+  color: rgb(7, 2, 28);
+}
+
+.profile h1 {
+  font-size: 32px;
+  margin-top: 0;
+  color: white;
+}
+
+.profile .profile-info {
+  background-color: transparent;
+  padding: 20px; /* Reduced padding for better alignment */
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.profile .profile-info h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.profile .profile-info p {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.profile .profile-info p strong {
+  font-weight: bold;
+}
+
+.profile-image {
+  width: 310px; /* Adjust the size as needed */
+  height: 310px;
+  border-radius: 20%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}

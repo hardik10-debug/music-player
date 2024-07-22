@@ -1,0 +1,75 @@
+.specific-page1{
+  background: url('https://img.freepik.com/free-vector/musical-colorful-notes-dark-background_1017-32302.jpg') no-repeat center center fixed; /* Set the background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+}
+  .trending {
+  padding: 20px;
+  color: #333;
+  margin-left: 200px; /* Adjust for sidebar width /
+  box-sizing: border-box;
+  min-height: 100vh; / Ensure full viewport height */
+  display: flex;
+  flex-direction: column;
+  }
+  .trending h2 {
+  font-size: 29px;
+  margin-bottom: 19px;
+  color: rgb(10, 171, 203);
+  }
+  .trending-tracks {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  }
+  .trending-track {
+    background-color: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  .trending-track:hover {
+  transform: translateY(-5px);
+  }
+  .track-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 15px;
+  }
+  .track-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+  .track-info {
+  margin-top: 10px;
+  text-align: center;
+  }
+  .track-name {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #c40b0b;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  }
+  .track-artists {
+  font-size: 12px;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  }
+  
