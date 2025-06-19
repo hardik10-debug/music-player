@@ -1,7 +1,7 @@
 import qs from 'qs';
 
 export const clientId = "40a4d0c2c361443bb4f8e8e6f045e7b8";
-export const redirectUri = "http://localhost:3000/callback";
+export const redirectUri = "https://ghost-music-player.netlify.app/callback";
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 
 export const scopes = [
